@@ -1,0 +1,24 @@
+.form-container{
+    text-align: center;
+    width: 33%;
+    padding: 20px;
+    background-color: dodgerblue;
+}
+.textbox{
+    border-color: blue;
+    background-color: cyan;
+    border-radius: 10px;
+}
+.textarea{
+    border-color: blue;
+    background-color: cyan;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.button{
+    border-color: blue;
+    background-color: transparent;
+    width: 100px;
+}

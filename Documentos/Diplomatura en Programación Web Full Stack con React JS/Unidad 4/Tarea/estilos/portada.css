@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    text-align: right;
+}
+.seccion{
+    border: 1px solid black;
+    background-color: rgba(0,0,255,0.5); 
+}
+#retrato{
+    width: 300px;
+}
