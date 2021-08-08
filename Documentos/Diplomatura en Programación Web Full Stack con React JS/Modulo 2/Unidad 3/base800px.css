@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #000;
+	background: #332F29;
+	font-size:100%;
+}
+#contenedor {
+	width: 100%;
+	background: #8FA68E;
+}
+nav {
+	background: orange;
+	width: 100%;
+	float: none;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+ul {
+	list-style-type:none;
+}
+a {
+	color:black;
+	text-decoration: none;
+}
+section {
+	background: #F1F2C0;
+	width: 100%;
+	margin-left: 0px;
+}
+aside {
+	background: #CCC59E;
+	width: 100%;
+}
