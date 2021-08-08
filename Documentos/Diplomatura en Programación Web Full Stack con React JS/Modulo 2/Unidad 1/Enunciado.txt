@@ -1,0 +1,5 @@
+Tarea Unidad 1 CSS (parte 1)
+
+Agregar un mínimo de 2 reglas aprendidas en esta unidad en el archivo css en el diseño de nuestro CV
+
+Subir a un repositorio público en GitHub y compartir la URL del mismo.
