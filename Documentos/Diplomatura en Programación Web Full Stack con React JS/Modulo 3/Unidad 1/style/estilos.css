@@ -1,0 +1,178 @@
+@font-face {
+    font-family: fina;
+    src: url(fonts/Oswald-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: media;
+    src: url(fonts/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: gruesa;
+    src: url(fonts/Oswald-Bold.ttf);
+}
+
+header{
+    background-color: rgb(227, 21, 7);
+}
+header h1{
+    font-family: gruesa;
+    font-style: italic;
+    display: inline-block;
+    position:relative;
+    bottom: 35px;
+}
+header img{
+    margin-top: 25px;
+    width: 150px;
+}
+
+nav{
+    font-family: media;
+    background-color: rgb(255, 16, 0);
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    width: 19%;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 10px 10px;
+}
+
+.activa{
+    background-color: rgb(227, 21, 7);
+}
+
+nav ul li a:hover{
+    color: white;
+    box-shadow: 0px -5px black inset;
+}
+
+footer{
+    font-family: fina;
+    background-color: rgb(227, 21, 7);
+    padding: 10px 10px;
+    text-align: center;
+    clear: both;
+}
+
+main{
+    margin: none;
+    width: 960px;
+    margin: 0 auto;
+    font-family: fina;
+}
+
+h2{
+    font-family: gruesa;
+    font-style: italic;
+    font-size: 35px;
+    margin-left: 15px;
+}
+
+.noticia{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.noticia .info{
+    width: 75%;
+}
+
+.noticia img{
+    border-radius: 5px;
+}
+
+.noticia .info h4{
+    font-family: gruesa;
+    color: black;
+    font-size: 20px;
+    margin: 0 0 1em;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.noticia img{
+    box-shadow: 0px 0px black;
+}
+
+.noticia:nth-child(even) img{
+    float: right;
+    margin: 0 0 0 1em;
+}
+
+.noticia:nth-child(even) .info{
+    float: left;
+}
+
+.noticia:nth-child(odd) img{
+    float: left;
+    margin: 0 1em 0 0;
+}
+
+.noticia:nth-child(odd) .info{
+    float: right;
+}
+
+.personas{
+    overflow: hidden;
+}
+
+.persona{
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 10px;
+    float: left;
+    margin-left: 3%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.persona img{
+    border-radius: 50%;
+    margin: 0.8em 0 1em;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    max-width: 70%;
+}
+
+.persona h5,
+.persona h6{
+    text-align: center;
+    font-family: media;
+    color: rgb(227, 21, 7);
+    margin: 0;
+}
+
+.persona h5{
+    font-size: 1em;
+}
+
+.persona h6{
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.persona p{
+    margin: 0 1em 1em;
+}
+
+.persona:first-child{
+    margin-left: 0;
+}
