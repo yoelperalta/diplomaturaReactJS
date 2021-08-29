@@ -1,0 +1,15 @@
+.fila-borde{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.col{
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.row{
+    padding-top: 56px;
+}
