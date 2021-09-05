@@ -1,0 +1,35 @@
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cuadrado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;     
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    transition: .5s ease all;
+}
+
+.cuadrado:hover{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#R{
+    background-color: red;
+}
+
+#G{
+    background-color: green;
+}
+
+#B{
+    background-color: blue;
+}
